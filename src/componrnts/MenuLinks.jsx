@@ -9,7 +9,7 @@ export default function MenuLinks() {
   } = useFetch(
     "https://online-json-server-api.up.railway.app/project/66ab1f611d2cd3eb1145cb15/quizzes"
   );
-
+console.log(quizzes);
   return (
     <div>
       {isPending && <p>Loading...</p>}

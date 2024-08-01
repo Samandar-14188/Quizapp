@@ -9,11 +9,12 @@ export default function Quiz() {
   useEffect(()=>{
     document.title = 'Quiz'+ " " + title
   } , [title])
+  console.log(quizzes);
   return (
     <section className="container quiz-container">
     {isPending && <h3>Loading...</h3>}
     {error && <h3>{error}</h3>}
-    { quizzes && <Test questions={quizzes.data[0]} />}
+    { quizzes && <Test questions={quizzes.data[4]} />}
     </section>
   )
 }

@@ -352,6 +352,113 @@
             "answer": "Google Lighthouse"
           }
         ]
+      },
+      {
+        "title": "TypeScript",
+        "color": "#F6E7FF",
+        "icon": "./assets/typescript.svg",
+        "questions": [
+          {
+            "question": "What is TypeScript?",
+            "options": [
+              "A CSS framework",
+              "A JavaScript library",
+              "A superset of JavaScript that adds static typing",
+              "A database management system"
+            ],
+            "answer": "A superset of JavaScript that adds static typing"
+          },
+          {
+            "question": "Which of the following is a correct way to define a TypeScript variable with type annotation?",
+            "options": [
+              "let age: number = 30;",
+              "let age = number 30;",
+              "let age = 30: number;",
+              "number age = 30;"
+            ],
+            "answer": "let age: number = 30;"
+          },
+          {
+            "question": "What is the output of the following TypeScript code?\n\n```typescript\nconst isDone: boolean = false;\nconsole.log(typeof isDone);\n```",
+            "options": [
+              "'string'",
+              "'boolean'",
+              "'number'",
+              "'object'"
+            ],
+            "answer": "'boolean'"
+          },
+          {
+            "question": "How can you specify that a variable can hold values of more than one type in TypeScript?",
+            "options": [
+              "Using `&` operator",
+              "Using `or` keyword",
+              "Using `|` operator",
+              "Using `,` operator"
+            ],
+            "answer": "Using `|` operator"
+          },
+          {
+            "question": "What does the `unknown` type represent in TypeScript?",
+            "options": [
+              "A type that is unknown at compile-time",
+              "A type that can be any value, but must be checked before being used",
+              "A type that is never used",
+              "A deprecated type"
+            ],
+            "answer": "A type that can be any value, but must be checked before being used"
+          },
+          {
+            "question": "What is the purpose of the `never` type in TypeScript?",
+            "options": [
+              "To represent values that will never occur",
+              "To define a variable that can never be reassigned",
+              "To define a constant value",
+              "To create a loop that never ends"
+            ],
+            "answer": "To represent values that will never occur"
+          },
+          {
+            "question": "Which of the following is true about TypeScript interfaces?",
+            "options": [
+              "Interfaces can define properties and methods",
+              "Interfaces can be instantiated",
+              "Interfaces can include private members",
+              "Interfaces are the same as classes"
+            ],
+            "answer": "Interfaces can define properties and methods"
+          },
+          {
+            "question": "How do you extend an interface in TypeScript?",
+            "options": [
+              "Using `extends` keyword",
+              "Using `implements` keyword",
+              "Using `inherit` keyword",
+              "Using `merge` keyword"
+            ],
+            "answer": "Using `extends` keyword"
+          },
+          {
+            "question": "What does the `readonly` modifier do in TypeScript?",
+            "options": [
+              "Prevents a property from being modified after it is initialized",
+              "Prevents a class from being inherited",
+              "Marks a method as read-only",
+              "Disables type checking"
+            ],
+            "answer": "Prevents a property from being modified after it is initialized"
+          },
+          {
+            "question": "How can you create an array of strings in TypeScript?",
+            "options": [
+              "let names: Array<string>;",
+              "let names: string[];",
+              "Both of the above",
+              "None of the above"
+            ],
+            "answer": "Both of the above"
+          }
+        ]
       }
     ]
   }
