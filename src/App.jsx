@@ -15,7 +15,7 @@ export default function App() {
           element: <Home />,
         },
         {
-          path: "/quiz",
+          path: "/quiz/:title",
           element: <Quiz />,
         },
       ],
